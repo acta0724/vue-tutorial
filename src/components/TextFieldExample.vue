@@ -18,7 +18,7 @@ const name = ref('');
         入力された名前: <strong>{{ name }}</strong>
       </p>
       <p v-else>
-        まだ何も入力されていません。
+        入力まだだよー
       </p>
     </v-card-text>
   </v-card>
