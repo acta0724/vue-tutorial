@@ -1,18 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <CountUp />
+  <v-app>
+    <v-main>
+      <v-container>
+        <div class="d-flex flex-column align-center">
+          <RadioExample />
+        </div>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import CountUp from './components/CountUp.vue';
-// import HelloWorld from './components/HelloWorld.vue'
+import RadioExample from './components/RadioExample.vue';
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
-    CountUp
+    RadioExample
   }
 }
 </script>
