@@ -4,6 +4,7 @@
       <v-container>
         <div class="d-flex flex-column align-center">
           <RadioExample />
+          <TextFieldExample />
         </div>
       </v-container>
     </v-main>
@@ -12,11 +13,13 @@
 
 <script>
 import RadioExample from './components/RadioExample.vue';
+import TextFieldExample from './components/TextFieldExample.vue';
 
 export default {
   name: 'App',
   components: {
-    RadioExample
+    RadioExample,
+    TextFieldExample
   }
 }
 </script>
